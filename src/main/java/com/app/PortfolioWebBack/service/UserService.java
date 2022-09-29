@@ -62,7 +62,7 @@ public class UserService implements IUserService  {
     
     @Override
     public void editProject(Project p) {
-        uRepo.save(p);
+        pRepo.save(p);
     }    
     
 }
